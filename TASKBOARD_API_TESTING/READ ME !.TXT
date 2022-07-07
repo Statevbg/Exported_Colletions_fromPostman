@@ -1,6 +1,8 @@
 Fork the app from https://replit.com/@nakov/taskboard in your replit account.
 Enter your link in environment.
 
+https://softuni.bg/
+
 The following endpoints are supported:
 
 · GET /api – list all API endpoints
