@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "8fa74809-6d3f-40c1-98b7-6fb63b2cbca6",
+		"name": "ShortURL's_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16264967"
+	},
+	"item": [
+		{
+			"name": "ListAllAPI_Endpoints",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ListAll_ShortUrls",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "FindShortUrl_By_ShortCode",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "CreateNew_ShortUrl",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"url\":\"https://www.wikipedia.org/\",\r\n \"shortCode\":\"wiki\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Url}}/api/urls",
+					"host": [
+						"{{Url}}"
+					],
+					"path": [
+						"api",
+						"urls"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_ShortUrl",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "CountVisits_ShortUrl",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
